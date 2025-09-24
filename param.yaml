@@ -1,0 +1,14 @@
+template-file-path: template.yml
+parameters:
+  MaxTasks: '4'
+  VpcCidr: 10.0.0.0/16
+  ContainerMemory: '512'
+  ServiceName: java-web-service
+  ContainerCpu: '256'
+  GitHubOrg: myspace20
+  MinTasks: '1'
+  ContainerPort: '8080'
+  ClusterName: java-web-cluster
+  DesiredCount: '0'
+  GitHubRepo: ecs
+tags: {}
